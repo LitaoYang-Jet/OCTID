@@ -24,9 +24,10 @@ classify_model()
 ```
 
 ### Parameters
-1. customised_model: If you want to use your own custom model, you can set this parameters to Ture and input your model to the "model" parameters. The default value is False.
 
-2. model: If you set the "custom_model" to False, you can use [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html) by calling the model name such as 'GoogleNet'.
+1. model: If you set the "custom_model" to False, you can use [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html) by calling the model name such as 'GoogleNet'.
+
+2. customised_model: If you want to use your own custom model, you can set this parameters to Ture and input your model to the "model" parameters. The default value is False.
 
 3. feature_dimension: feature dimension after using Umap, the default value is 3
 
