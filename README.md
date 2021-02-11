@@ -27,7 +27,7 @@ classify_model()
 
 ### Parameters
 
-1. model: The default value is 'googlenet'. The pre-defined models from [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html) can be loaded when customised_model is set to "False". Customised models can also be accepted when customised_model is set to "False".
+1. model: The default model is 'googlenet'. The pre-defined models from [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html) can be loaded when customised_model is set to "False". Customised models can also be accepted when customised_model is set to "Ture".
 
 2. customised_model (Boolean): The default value is False. If you want to use your own customised model, you can set this parameter to "Ture" and load your model and pass it to the "model" parameter.
 
