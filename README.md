@@ -42,3 +42,7 @@ classify_model()
 7. unlabelled_dataset (String): the path of the dataset that you want to classify, which will be divided into two categories and placed in two subfolders after running our classify model.
 
 ** Dataset folders notes: since we are using the [torchvision.datasets.ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) to label the image, please follow the way to create your image folders. And the image should be cut down to small images such as 500 by 500, not the original medical micro image.
+
+### Available pre-trained models for OCTID
+
+![image](https://github.com/LitaoYang-Jet/OCTID/blob/main/Available%20pre-trained%20models%20for%20OCTID.jpeg)
