@@ -1,7 +1,7 @@
 
 # OCTID: One-Class learning-based tool for Tumor Image Detection
 
-OCTID is an one-class learning-based python package for tumor tile detection. OCTID can capture patterns from the available normal WSIs to identify and remove normal tiles from the training dataset. By using OCTID, researchers without pathology expertise can select the tumor images based on the readily available data. Utilizing the power of machine learning, OCTID can conduct image pre-processing easily on the large-scale dataset. Example datasets can be found [here](https://github.com/LitaoYang-Jet/OCTID/tree/main/small_samples)
+OCTID is an one-class learning-based python package for tumor tile detection. OCTID can capture patterns from the available normal WSIs to identify and remove normal tiles from the training dataset. By using OCTID, researchers without pathology expertise can select the tumor images based on the readily available data. Utilizing the power of machine learning, OCTID can conduct image pre-processing easily on the large-scale dataset. Example datasets can be downloaded [here](https://github.com/LitaoYang-Jet/OCTID/tree/main/small_samples)
 
 ## Getting started
 
