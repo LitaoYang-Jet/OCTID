@@ -31,11 +31,11 @@ classify_model()
 
 2. customised_model (Boolean): The default value is False. If you want to use your own customised model, you can set this parameter to "Ture" and load your model and pass it to the "model" parameter.
 
-3. feature_dimension (Int): the feature dimension after using Umap, and the default value is 3
+3. feature_dimension (Int): the feature dimension after using [Umap](https://umap-learn.readthedocs.io/en/latest/), and the default value is 3.
 
-4. outlier_fraction_of_SVM (Float) : we are using the rbf kernel for SVM. This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
+4. outlier_fraction_of_SVM (Float) : we are using the rbf kernel for [SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html). This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
 
-5. training_dataset (String): the path of your template dataset folder, which should only contain the positive or negative images.
+5. training_dataset (String): the path of your template dataset folder, which should only contain positive images.
 
 6. validation_dataset (String): the path of your validation dataset folder, which should contain both positive and negative images.
 
