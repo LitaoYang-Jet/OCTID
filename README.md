@@ -33,7 +33,7 @@ classify_model()
 
 3. feature_dimension (Int): Feature dimension reduced by using [Umap](https://umap-learn.readthedocs.io/en/latest/), and the default value is 3.
 
-4. outlier_fraction_of_SVM (Float) : The default value is 0.03. The rbf kernel is used in one-class [SVM](https://scikit learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html). This parameter is an upper bound on the fraction of training errors and a lower
+4. outlier_fraction_of_SVM (Float) : The default value is 0.03. The rbf kernel is used in one-class [SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html). This parameter is an upper bound on the fraction of training errors and a lower
 bound of the fraction of support vectors, which is ranging from 0 to 1.
 
 5. training_dataset (String): The path of your template dataset folder, which should only contain the positive or negative images.
