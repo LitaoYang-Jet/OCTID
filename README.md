@@ -42,7 +42,8 @@ bound of the fraction of support vectors, which is ranging from 0 to 1.
 
 7. unlabelled_dataset (String): The path of the dataset that you want to classify, which will be re-saved to two subfolders, corresponding to two classes.
 
-* Dataset folders notes: since we are using the [torchvision.datasets.ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) to label the image, please follow the way to create your image folders. 
+** Dataset folders notes: since we are using the [torchvision.datasets.ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) to label the image, please follow the way to create your image folders. 
+
 ** Images processed here are small tiles not the whole slide images, which should be segmented into small images, such as 500 by 500.
 
 ### Available pre-trained models for OCTID
