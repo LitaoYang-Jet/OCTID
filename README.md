@@ -31,7 +31,7 @@ classify_model()
 
 2. customised_model (Boolean): The default value is False. If you want to use your own model, you can set this parameter as "Ture" and load and pass your model to the "model" parameter.
 
-3. feature_dimension (Int): Feature dimension reduced by using [Umap](https://umap-learn.readthedocs.io/en/latest/), and the default value is 3.
+3. feature_dimension (Int): Feature dimension reduced by using [UMAP](https://umap-learn.readthedocs.io/en/latest/), and the default value is 3.
 
 4. outlier_fraction_of_SVM (Float) : The default value is 0.03. The rbf kernel is used in one-class [SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html). This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors, which ranges from 0 to 1.
 
