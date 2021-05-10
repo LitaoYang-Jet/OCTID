@@ -19,7 +19,7 @@ to run your first example
 from octid import octid
 # initialize the classify model with the requiered parameters
 classify_model = octid.octid(model = 'googlenet', customised_model = False, feature_dimension = 3, outlier_fraction_of_SVM = 0.03,
-                              traning_dataset = 'training_dataset_path', validation_dataset = 'validation_dataset_path', unlabeled_dataset='unlabelled_dataset_path')
+                              training_dataset = 'training_dataset_path', validation_dataset = 'validation_dataset_path', unlabeled_dataset='unlabelled_dataset_path')
 
 # run the classify model
 classify_model()
